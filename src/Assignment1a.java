@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Assignment1a {
     /*task1
     public static int sumOfSquares(int n) {
-        if (n <= 1) return n * n; // Base case
+        if (n <= 1) return n * n;
         return (n * n) + sumOfSquares(n - 1);
     }
 
@@ -11,7 +11,7 @@ public class Assignment1a {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n: ");
         int n = sc.nextInt();
-        System.out.println("Sample Output: " + sumOfSquares(n)); // For n=4, output is 30 [cite: 7]
+        System.out.println("Sample Output: " + sumOfSquares(n));
     }
 
      */
@@ -47,7 +47,7 @@ public class Assignment1a {
            }
 
            public static void main(String[] args) {
-               // Sample Input: b=4, n=3 -> Output: 85 [cite: 14, 15]
+
                System.out.println("Result: " + sumPowers(4, 3));
            }
        }
@@ -116,7 +116,7 @@ public class Assignment1a {
 
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            int n = sc.nextInt(); // Sample input: 3 or 4 [cite: 40, 46]
+            int n = sc.nextInt();
             int[][] matrix = new int[n][n];
 
             fillSpiral(matrix, 1, 0, 0, n);
